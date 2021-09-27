@@ -1,0 +1,15 @@
+guilbert@guilbert-X540LJ:~/Documents/gitquest/my-website-oops$ git log --oneline
+d6b7326 (HEAD -> master) ajout paragraphe
+7cb9170 ajout titre
+24f7f65 mis la structure
+guilbert@guilbert-X540LJ:~/Documents/gitquest/my-website-oops$ git reset d6b7326
+guilbert@guilbert-X540LJ:~/Documents/gitquest/my-website-oops$ git log --oneline
+d6b7326 (HEAD -> master) ajout paragraphe
+7cb9170 ajout titre
+24f7f65 mis la structure
+guilbert@guilbert-X540LJ:~/Documents/gitquest/my-website-oops$ git reset 7cb9170
+Modifications non indexées après reset :
+M	index.html
+guilbert@guilbert-X540LJ:~/Documents/gitquest/my-website-oops$ git log --oneline
+7cb9170 (HEAD -> master) ajout titre
+24f7f65 mis la structure
